@@ -324,7 +324,7 @@ a:-webkit-any-link{
   
     transition: transform .7s ease-in-out;
   }
- .contact img:hover {
+.contact img:hover {
     transform: rotate(360deg);
   }
 
