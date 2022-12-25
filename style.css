@@ -1,7 +1,7 @@
 *{
     margin:0px;
     /* overflow-x: hidden; */
-
+  
     padding:0px;
 }    
 
@@ -303,10 +303,30 @@ body:hover > #trailer {
     /* width: clamp(120px, 40vmin, 600px); */
     background-position: center 50%;
     background-size: 100%;  
-    opacity: 0.4;
+    opacity: 0.5;
     
     transition: background-size 400ms ease, opacity 400ms ease;
   }
+  .interactable {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  /* width: auto ; */
+   /* aspect-ratio: 1 / 1.5; */
+   /* width: clamp(120px, 40vmin, 600px); */
+   background-position: center 50%;
+   background-size: 100%;  
+ 
+   
+   
+ }
+ .interactable >p{
+  color:#F4F3EA;
+  font-family: 'Poppins';
+  font-size: 18px;
+ }
   
   .interactable:hover {
     
@@ -343,6 +363,78 @@ a:-webkit-any-link{
     transform: rotate(360deg);
   }
 
+@media only screen and (max-width: 600px) {
+  * >.intro,.contact{
+    overflow-x: hidden;
+  }
+  body:hover > #trailer {
+    opacity: 0;
+}
+    body{
+      
+      width: 600px;
+    }
+    .head{
+      /* z-index: 10000; */
+      height: 0px;
+      padding: 0px;
+      
+      margin-top: 100px;
+     
+      width: 600px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;  
+      justify-content: center;
+    }
 
+    #navbar{
+      margin: 0px;
+      width: 60%;
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 100px;
+      
+    } 
+    .subtitle{
+      font-family: 'Poppins';
+      margin-bottom:40px ;
+    }
+    .intro{
+      
+      width: 100%;
+      margin: 0;
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+    }
+    
+  
+    .interactable {
+        display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      
+      /* width: auto ; */
+       /* aspect-ratio: 1 / 1.5; */
+       /* width: clamp(120px, 40vmin, 600px); */
+       background-position: center 50%;
+       background-size: 100%;  
+       opacity: 1;
+       
+       
+     }
+     .interactable >p{
+      color:#F4F3EA;
+      font-family: 'Poppins';
+      font-size: 8px;
+      
+     }
+     h2{
+      font-size: 32px;
+     }
 
-
+}

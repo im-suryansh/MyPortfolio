@@ -1,3 +1,6 @@
+if(window.innerWidth > 600)
+
+{
 const trailer = document.getElementById("trailer");
 
 const animateTrailer = (e, interacting) => {
@@ -38,8 +41,7 @@ window.onmousemove = e => {
   }
 }
 
-
-
+}
 
 
 
