@@ -26,6 +26,7 @@ html{
 }
 
 #projcard img{
+  border-radius: 60px;
   
   width: 400px;
   height: 300px;
@@ -419,6 +420,7 @@ a:-webkit-any-link{
     
   
     .interactable {
+      
         display: flex;
       flex-direction: column;
       align-items: center;
