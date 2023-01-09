@@ -364,14 +364,20 @@ a:-webkit-any-link{
   }
 
 @media only screen and (max-width: 600px) {
+  .container{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
   * >.intro,.contact{
     overflow-x: hidden;
   }
   body:hover > #trailer {
     opacity: 0;
 }
-    body{
-      
+    body{margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
       width: 600px;
     }
     .head{
@@ -436,5 +442,7 @@ a:-webkit-any-link{
      h2{
       font-size: 32px;
      }
-
+     .contact{
+      margin-bottom: 100px;
+     }
 }
