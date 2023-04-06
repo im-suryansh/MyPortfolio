@@ -1,5 +1,4 @@
 * {
- 
   margin: 0px;
   padding: 0px;
 }
@@ -29,7 +28,7 @@ html {
 .projects {
   width: 100vw;
   padding-bottom: 70px;
-  overflow:hidden;
+  overflow: hidden;
 }
 .head {
   padding: 20px;
@@ -216,7 +215,7 @@ h2 {
 margin: 10px;
 }  */
 
-#projcard .interactable{
+#projcard .interactable {
   display: flex;
   justify-content: center;
   width: 40%;
@@ -245,30 +244,26 @@ body:hover > #trailer {
 
   display: grid;
   place-items: center;
-  
 }
 
 #trailer:not([data-type=""]) > #trailer-icon {
   opacity: 1;
 }
 
-#trailer-icon{
+#trailer-icon {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#trailer-icon img{
-  
- 
+#trailer-icon img {
   width: 6px;
   height: 6px;
-  
 
   opacity: 1;
   transition: opacity 400ms ease;
 }
 
-.not-hover{
+.not-hover {
   transition: opacity 200ms ease;
 
   opacity: 0;
